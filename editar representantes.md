@@ -1,0 +1,303 @@
+{
+  "id": "af3ae64a-b0d9-46a7-8cac-d9b2b7f8466e",
+  "version": "2.0",
+  "name": "editar representantes",
+  "url": "https://sistemalift1.com",
+  "tests": [{
+    "id": "090654ba-3728-4358-ba5c-1138e34f904c",
+    "name": "editar representantes",
+    "commands": [{
+      "id": "ecc85859-8303-4392-929f-a69cd69b6c33",
+      "comment": "",
+      "command": "open",
+      "target": "/lifthomolog/Inicio.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1efd1b74-5f91-4a0a-b37f-0738cc7a949e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f0b4436-8362-4bc7-9b11-0b846be55522",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DivBotao2 > a:nth-child(1) > img",
+      "targets": [
+        ["css=.DivBotao2 > a:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[@alt='Abrir Cadastro de Representantes']", "xpath:img"],
+        ["xpath=//form[@id='formInicio']/table/tbody/tr[3]/td/table/tbody/tr/td/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82b6f54f-4e73-4dcb-a79e-9d75f5e13b72",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_txt_buscar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txt_buscar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txt_buscar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txt_buscar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txt_buscar']", "xpath:attributes"],
+        ["xpath=//div[@id='Lista']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d99b668-4b3c-4b2f-a189-08ce694b83c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_txt_buscar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txt_buscar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txt_buscar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txt_buscar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txt_buscar']", "xpath:attributes"],
+        ["xpath=//div[@id='Lista']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7779c0c-a7af-4b22-aa1e-c0204f943987",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_txt_buscar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txt_buscar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txt_buscar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txt_buscar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txt_buscar']", "xpath:attributes"],
+        ["xpath=//div[@id='Lista']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": "haifa"
+    }, {
+      "id": "a15b7792-9c60-4b09-a0c5-5b6f3227e8ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_btn_ok",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_btn_ok", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btn_ok", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_btn_ok", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_btn_ok']", "xpath:attributes"],
+        ["xpath=//div[@id='Lista']/fieldset/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5862f648-4161-4270-baa0-a71a4d86feaf",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_grid_representantes_ctl02_lbl_nome",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_grid_representantes_ctl02_lbl_nome", "id"],
+        ["css=#ctl00_ContentPlaceHolder1_grid_representantes_ctl02_lbl_nome", "css:finder"],
+        ["xpath=//span[@id='ctl00_ContentPlaceHolder1_grid_representantes_ctl02_lbl_nome']", "xpath:attributes"],
+        ["xpath=//table[@id='ctl00_ContentPlaceHolder1_grid_representantes']/tbody/tr[2]/td/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bf2a99-80ed-4080-bfd3-24bdfb231986",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_btn_editar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_btn_editar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btn_editar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_btn_editar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_btn_editar']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_pnl_dados']/fieldset/fieldset/center/input", "xpath:idRelative"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bfe63b9-eeee-45b2-8af6-1232f4560f2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome", "id"],
+        ["name=ctl00$ContentPlaceHolder1$FormRepresentante1$txt_nome", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa51b18e-90a8-464e-8702-4defdbc68cb0",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome", "id"],
+        ["name=ctl00$ContentPlaceHolder1$FormRepresentante1$txt_nome", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "haifa - teste K"
+    }, {
+      "id": "31710c24-8d7f-4a1b-b0b6-4492159a8639",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_FormRepresentante1_btn_cadastrar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_FormRepresentante1_btn_cadastrar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$FormRepresentante1$btn_cadastrar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_FormRepresentante1_btn_cadastrar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_btn_cadastrar']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo']/table/tbody/tr[18]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[18]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e93ae4-490d-4a5b-b9e6-7d485cb5e3cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_txt_buscar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txt_buscar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txt_buscar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txt_buscar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txt_buscar']", "xpath:attributes"],
+        ["xpath=//div[@id='Lista']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cbe657b-45c2-4160-93b1-8762fb3d9c35",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_txt_buscar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_txt_buscar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txt_buscar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_txt_buscar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_txt_buscar']", "xpath:attributes"],
+        ["xpath=//div[@id='Lista']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": "haifa - teste k"
+    }, {
+      "id": "c7bcdc48-9e28-463b-94a1-dfbe00eb5803",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_btn_ok",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_btn_ok", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btn_ok", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_btn_ok", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_btn_ok']", "xpath:attributes"],
+        ["xpath=//div[@id='Lista']/fieldset/input[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d00265db-1db3-4fc2-8f20-90372e4d5c85",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_grid_representantes_ctl02_lbl_nome",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_grid_representantes_ctl02_lbl_nome", "id"],
+        ["css=#ctl00_ContentPlaceHolder1_grid_representantes_ctl02_lbl_nome", "css:finder"],
+        ["xpath=//span[@id='ctl00_ContentPlaceHolder1_grid_representantes_ctl02_lbl_nome']", "xpath:attributes"],
+        ["xpath=//table[@id='ctl00_ContentPlaceHolder1_grid_representantes']/tbody/tr[2]/td/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9352568-6768-4a9c-8d44-2bafe991080f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_btn_editar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_btn_editar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btn_editar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_btn_editar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_btn_editar']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_pnl_dados']/fieldset/fieldset/center/input", "xpath:idRelative"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a300c1d-5401-4d67-9e9a-2f84b5dc4753",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome", "id"],
+        ["name=ctl00$ContentPlaceHolder1$FormRepresentante1$txt_nome", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf670e1-b53a-4d6d-af4f-1b09c537e236",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome", "id"],
+        ["name=ctl00$ContentPlaceHolder1$FormRepresentante1$txt_nome", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_txt_nome']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "haifa - teste"
+    }, {
+      "id": "1ad7014f-a33b-4bec-8ffe-b225398c6881",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo", "id"],
+        ["css=#ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo", "css:finder"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/table/tbody/tr[3]/td/fieldset/div/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "546039ac-50c8-46ac-8c87-09668e44e3e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_FormRepresentante1_btn_cadastrar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_FormRepresentante1_btn_cadastrar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$FormRepresentante1$btn_cadastrar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_FormRepresentante1_btn_cadastrar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_btn_cadastrar']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_FormRepresentante1_DivFundo']/table/tbody/tr[18]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[18]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dc940d6-af25-489e-8520-3d190b53528e",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Nenhum registro encontrado! Por favor, tente novamente.",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f186d86-205d-4abc-b960-634460d65ea0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["090654ba-3728-4358-ba5c-1138e34f904c"]
+  }],
+  "urls": ["https://sistemalift1.com/"],
+  "plugins": []
+}
