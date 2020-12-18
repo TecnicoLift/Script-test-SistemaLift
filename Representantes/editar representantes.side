@@ -73,7 +73,7 @@
         ["xpath=//div[@id='Lista']/fieldset/input", "xpath:idRelative"],
         ["xpath=//fieldset/input", "xpath:position"]
       ],
-      "value": "haifa"
+      "value": "haifa - teste"
     }, {
       "id": "a15b7792-9c60-4b09-a0c5-5b6f3227e8ff",
       "comment": "",
